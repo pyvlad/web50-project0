@@ -20,9 +20,19 @@ body {
   margin: auto;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 td, th {
   padding: 5px;
   text-align: center;
+  border: 1px solid lightgrey;
+}
+
+th {
+  background-color: dimgrey;
+  color: white;
 }
 
 h1 {

@@ -38,3 +38,11 @@ th {
 h1 {
   text-align: center;
 }
+
+.visibility-note {
+  background-color: lightblue;
+  border: 1px dashed blue;
+  padding:15px;
+  font-style: italic;
+  font-size:0.8em;
+}

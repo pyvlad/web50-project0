@@ -1,0 +1,30 @@
+body {
+  background-color: whitesmoke;
+}
+
+#info-block {
+  padding: 15px;
+  border-right: 1px solid darkgrey;
+}
+
+#info-block:hover {
+  background-color:darkgrey;
+  color:white;
+}
+
+#table-block {
+  padding: 15px;
+}
+
+#table-block > table {
+  margin: auto;
+}
+
+td, th {
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}

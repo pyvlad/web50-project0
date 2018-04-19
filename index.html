@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Webpage</title>
-    </head>
-    <body>
-        Hello, world!
-    </body>
+  <head>
+      <title>My Galaxies</title>
+      <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <section id="content" class="container">
+
+      <div class="header">
+        <hr>
+        <h1>My Awesome Galaxies</h1>
+        <hr>
+      </div>
+
+      <div class="row">
+        <div id="info-block" class="col-md-6">
+          <p>Hello, there!</p>
+          <p>As a training excercise to get comfortable with the basics of git, HTML and CSS,
+            I've prepared this nice little table with the galaxies that under certain circumstances
+            can be seen with naked eye from our home planet. Here they are...
+          </p>
+        </div>
+        <div id="table-block" class="col-md-6">
+          <table>
+            <tr><th>Name</th><th>Distance from Earth <br>(thousands of light-years)</th></tr>
+            <tr><th><a href="m31.html">Andromeda Galaxy (M31)</a></th><th>2,500</th>
+            <tr><th><a href="lmc.html">Large Magellanic Cloud (LMC)</a></th><th>163</th>
+            <tr><th><a href="smc.html">Small Magellanic Cloud (SMC)</a></th><th>206</th>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+  </body>
 </html>

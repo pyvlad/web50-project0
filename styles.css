@@ -39,9 +39,13 @@ h1 {
   text-align: center;
 }
 
+.pic-container {
+  background-color: Gainsboro;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
 .visibility-note {
-  background-color: lightblue;
-  border: 1px dashed blue;
   padding:15px;
   font-style: italic;
   font-size:0.8em;
@@ -49,11 +53,13 @@ h1 {
 
 .galaxy-pic {
   width: 100%;
+  border: 5px inset black;
 }
 
-@media (min-width:960px;) {
-  .galaxy-pic {
-    width: 960px;
+@media (min-width:992px) {
+  .galaxy-pic, .visibility-note {
+    width: 800px;
+    display:block;
     margin: auto;
   }
 }

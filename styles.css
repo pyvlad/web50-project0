@@ -1,88 +1,64 @@
 body {
-  background-color: whitesmoke;
-}
+  background-color: whitesmoke; }
+
+h1 {
+  text-align: center; }
 
 #info-block {
   padding: 15px;
-  border-right: 1px solid darkgrey;
-}
+  border-right: 1px solid darkgrey; }
 
 #info-block:hover {
-  background-color:darkgrey;
-  color:white;
-}
+  background-color: darkgrey;
+  color: white; }
 
 #table-block {
-  padding: 15px;
-}
-
-#table-block > table {
-  margin: auto;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  padding: 5px;
-  text-align: center;
-  border: 1px solid lightgrey;
-}
-
-th {
-  background-color: dimgrey;
-  color: white;
-}
-
-h1 {
-  text-align: center;
-}
+  padding: 15px; }
+  #table-block table {
+    margin: auto;
+    border-collapse: collapse; }
+  #table-block td, #table-block th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid lightgrey; }
+  #table-block th {
+    background-color: dimgrey;
+    color: white; }
 
 .flex-container {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px;
-}
-
-.flex-container>p {
-  background-color: beige;
-  border:1px solid bisque;
-  font-size: 16px;
-  margin: 20px;
-  padding: 20px;
-  width: 220px;
-  text-align: center;
-}
-
-.flex-container>p::first-letter {
-  font-weight: bold;
-  font-size: 1.5em;
-  line-height:1;
-}
+  margin-bottom: 20px; }
+  .flex-container p {
+    background-color: beige;
+    border: 1px solid bisque;
+    font-size: 16px;
+    margin: 20px;
+    padding: 20px;
+    width: 220px;
+    text-align: center; }
+  .flex-container p::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1; }
 
 .pic-container {
-  background-color: Gainsboro;
-  border: 1px solid grey;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .visibility-note {
-  padding:15px;
+  padding: 15px;
   font-style: italic;
-  font-size:0.8em;
-}
+  font-size: 0.8em; }
 
 .galaxy-pic {
   width: 100%;
-  border: 5px inset black;
-}
+  border: 5px inset black; }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .galaxy-pic, .visibility-note {
     width: 800px;
-    display:block;
-    margin: auto;
-  }
-}
+    display: block;
+    margin: auto; } }
+
+/*# sourceMappingURL=styles.css.map */

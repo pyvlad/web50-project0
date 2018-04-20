@@ -39,6 +39,29 @@ h1 {
   text-align: center;
 }
 
+.flex-container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.flex-container>p {
+  background-color: beige;
+  border:1px solid bisque;
+  font-size: 16px;
+  margin: 20px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+.flex-container>p::first-letter {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height:1;
+}
+
 .pic-container {
   background-color: Gainsboro;
   border: 1px solid grey;
